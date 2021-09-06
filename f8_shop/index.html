@@ -1,0 +1,978 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="../asset/css/base.css">
+    <link rel="stylesheet" href="../asset/css/main.css">
+    <link rel="stylesheet" href="../asset/css/grid.css">
+    <link rel="stylesheet" href="../asset/css/responsivef8shop.css">
+    <link rel="stylesheet" href="../asset/fontawesome-free-5.15.4-web/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <title>F8-Shop</title>
+</head>
+
+<body>
+    <div class="app">
+        <header class="header">
+            <div class="grid wide">
+                <nav class="header__navbar hide-on-mobile-tablet">
+                    <ul class="header__navbar-list">
+                        <li class="header__navbar-item header__navbar-item--has-qr header__navbar-item--separate">
+                            Vào cửa hàng trên ứng dụng F8-Shop
+                            <div class="header__qr">
+                                <img src="../asset/image/macode.png" alt="QR Code" class="header__qr-img">
+                                <div class="header__qr-apps">
+                                    <a href="" class="header__qr-link">
+                                        <img src="../asset/image/google.png" alt="GooglePlay"
+                                            class="header__qr-download-img"></a>
+                                    <a href="" class="header_qr-link">
+                                        <img src="../asset/image/appstore.png" alt="Appstore"
+                                            class="header__qr-download-img"></a>
+                                    <a href="" class="header_qr-link">
+                                        <img src="../asset/image/app.png" alt="Appstore"
+                                            class="header__qr-download-img"></a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="header__navbar-item">
+                            <span class="header__navbar-title--no-pointer">Kết nối</span>
+                            <a href="" class="header__navbar-icon-link">
+                                <i class="header__navbar-icon fab fa-facebook"></i>
+                            </a>
+                            <a href="" class="header__navbar-icon-link">
+                                <i class="header__navbar-icon fab fa-instagram"></i>
+                            </a>
+                        </li>
+                    </ul>
+
+                    <ul class="header__navbar-list">
+                        <li class="header__navbar-item header__navbar-item--has-notify">
+                            <a href="" class="header__navbar-item-link"><i class="header__navbar-icon far fa-bell"></i>
+                                Thông Báo</a>
+                            <div class="hearder__notify">
+                                <header class="hearder__notify-header">
+                                    <h3>Thông báo mới nhận</h3>
+                                </header>
+
+                                <ul class="hearder__notify-list">
+                                    <li class="hearder__notify-item hearder__notify-item--viewed">
+                                        <a href="" class="hearder__notify-link">
+                                            <img src="../asset/image/smallstone.jpg" alt="" class="hearder__notify-img">
+                                            <div class="hearder__notify-info">
+                                                <samp class="hearder__notify-name">Small Strass</samp>
+                                                <samp class="hearder__notify-des">Mô tả Small Strass</samp>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class="hearder__notify-item">
+                                        <a href="" class="hearder__notify-link">
+                                            <img src="../asset/image/taymong.jpg" alt="" class="hearder__notify-img">
+                                            <div class="hearder__notify-info">
+                                                <samp class="hearder__notify-name">Tay Mong</samp>
+                                                <samp class="hearder__notify-des">Mô tả tay mong</samp>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class="hearder__notify-item">
+                                        <a href="" class="hearder__notify-link">
+                                            <img src="../asset/image/staff.jpg" alt="" class="hearder__notify-img">
+                                            <div class="hearder__notify-info">
+                                                <samp class="hearder__notify-name">Staff</samp>
+                                                <samp class="hearder__notify-des">Mô tả Staff</samp>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class="hearder__notify-item">
+                                        <a href="" class="hearder__notify-link">
+                                            <img src="../asset/image/trangguong.jpg" alt="" class="hearder__notify-img">
+                                            <div class="hearder__notify-info">
+                                                <samp class="hearder__notify-name">Omber</samp>
+                                                <samp class="hearder__notify-des">Mô tả Omber</samp>
+                                            </div>
+                                        </a>
+                                    </li>
+                                </ul>
+                                <footer class="header__notify-footer">
+                                    <a href="" class="header__notify-footer-btn">Xem tất cả</a>
+                                </footer>
+                            </div>
+                        </li>
+                        <li class="header__navbar-item">
+                            <a href="" class="header__navbar-item-link"><i
+                                    class="header__navbar-icon fas fa-question-circle"></i> Trợ
+                                Giúp</a>
+                        </li>
+                        <!-- <li class="header__navbar-item header__navbar-item--separate header__navbar-item--strong">Đăng Ký</li>
+                        <li class="header__navbar-item header__navbar-item--strong">Đăng Nhập</li> -->
+                        <li class="header__navbar-item header__navbar-user">
+                            <img src="../asset/image/nam.jpg" alt="" class="header__navbar-user-img">
+                            <span class="header__navbar-user-name">Hoang Luu</span>
+
+                            <ul class="header__navbar-user-menu">
+                                <li class="header__navbar-user-item">
+                                    <a href="">Tài khoản của tôi</a>
+                                </li>
+                                <li class="header__navbar-user-item">
+                                    <a href="">Đại chỉ của tôi</a>
+                                </li>
+                                <li class="header__navbar-user-item">
+                                    <a href="">Đơn mua</a>
+                                </li>
+                                <li class="header__navbar-user-item header__navbar-user-item--separate">
+                                    <a href="">Đăng xuất</a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </nav>
+
+                <!-- header with search -->
+                <div class="header-with-search">
+                    <label for="mobile-search" class="header__mobile-search">
+                        <i class="header__mobile-search-icon fas fa-search"></i>
+                    </label>
+                    <div class="header__logo hide-on-tablet">
+                        <a href="index.html" class="header__logo-link">
+                            <svg viewBox="0 0 192 65" class="header__logo-img">
+                                <g fill-rule="evenodd">
+                                    <path fill="#fff"
+                                        d="M35.6717403 44.953764c-.3333497 2.7510509-2.0003116 4.9543414-4.5823845 6.0575984-1.4379707.6145919-3.36871.9463856-4.896954.8421628-2.3840266-.0911143-4.6237865-.6708937-6.6883352-1.7307424-.7375522-.3788551-1.8370513-1.1352759-2.6813095-1.8437757-.213839-.1790053-.239235-.2937577-.0977428-.4944671.0764015-.1151823.2172535-.3229831.5286218-.7791994.45158-.6616533.5079208-.7446018.5587128-.8221779.14448-.2217688.3792333-.2411091.6107855-.0588804.0243289.0189105.0243289.0189105.0426824.0333083.0379873.0294402.0379873.0294402.1276204.0990653.0907002.0706996.14448.1123887.166248.1287205 2.2265285 1.7438508 4.8196989 2.7495466 7.4376251 2.8501162 3.6423042-.0496401 6.2615109-1.6873341 6.7308041-4.2020035.5160305-2.7675977-1.6565047-5.1582742-5.9070334-6.4908212-1.329344-.4166762-4.6895175-1.7616869-5.3090528-2.1250697-2.9094471-1.7071043-4.2697358-3.9430584-4.0763845-6.7048539.296216-3.8283059 3.8501677-6.6835796 8.340785-6.702705 2.0082079-.004083 4.0121475.4132378 5.937338 1.2244562.6816382.2873109 1.8987274.9496089 2.3189359 1.2633517.2420093.1777159.2898136.384872.1510957.60836-.0774686.12958-.2055158.3350171-.4754821.7632974l-.0029878.0047276c-.3553311.5640922-.3664286.5817134-.447952.7136572-.140852.2144625-.3064598.2344475-.5604202.0732783-2.0600669-1.3839063-4.3437898-2.0801572-6.8554368-2.130442-3.126914.061889-5.4706057 1.9228561-5.6246892 4.4579402-.0409751 2.2896772 1.676352 3.9613243 5.3858811 5.2358503 7.529819 2.4196871 10.4113092 5.25648 9.869029 9.7292478M26.3725216 5.42669372c4.9022893 0 8.8982174 4.65220288 9.0851664 10.47578358H17.2875686c.186949-5.8235807 4.1828771-10.47578358 9.084953-10.47578358m25.370857 11.57065968c0-.6047069-.4870064-1.0948761-1.0875481-1.0948761h-11.77736c-.28896-7.68927544-5.7774923-13.82058185-12.5059489-13.82058185-6.7282432 0-12.2167755 6.13130641-12.5057355 13.82058185l-11.79421958.0002149c-.59136492.0107446-1.06748731.4968309-1.06748731 1.0946612 0 .0285807.00106706.0569465.00320118.0848825H.99995732l1.6812605 37.0613963c.00021341.1031483.00405483.2071562.01173767.3118087.00170729.0236381.003628.0470614.00554871.0704847l.00362801.0782207.00405483.004083c.25545428 2.5789222 2.12707837 4.6560709 4.67201764 4.7519129l.00576212.0055872h37.4122078c.0177132.0002149.0354264.0004298.0531396.0004298.0177132 0 .0354264-.0002149.0531396-.0004298h.0796027l.0017073-.0015043c2.589329-.0706995 4.6867431-2.1768587 4.9082648-4.787585l.0012805-.0012893.0017073-.0350275c.0021341-.0275062.0040548-.0547975.0057621-.0823037.0040548-.065757.0068292-.1312992.0078963-.1964115l1.8344904-37.207738h-.0012805c.001067-.0186956.0014939-.0376062.0014939-.0565167M176.465457 41.1518926c.720839-2.3512494 2.900423-3.9186779 5.443734-3.9186779 2.427686 0 4.739107 1.6486899 5.537598 3.9141989l.054826.1556978h-11.082664l.046506-.1512188zm13.50267 3.4063683c.014933.0006399.014933.0006399.036906.0008531.021973-.0002132.021973-.0002132.044372-.0008531.53055-.0243144.950595-.4766911.950595-1.0271786 0-.0266606-.000853-.0496953-.00256-.0865936.000427-.0068251.000427-.020262.000427-.0635588 0-5.1926268-4.070748-9.4007319-9.09145-9.4007319-5.020488 0-9.091235 4.2081051-9.091235 9.4007319 0 .3871116.022399.7731567.067838 1.1568557l.00256.0204753.01408.1013102c.250022 1.8683731 1.047233 3.5831812 2.306302 4.9708108-.00064-.0006399.00064.0006399.007253.0078915 1.396026 1.536289 3.291455 2.5833031 5.393601 2.9748936l.02752.0053321v-.0027727l.13653.0228215c.070186.0119439.144211.0236746.243409.039031 2.766879.332724 5.221231-.0661182 7.299484-1.1127057.511777-.2578611.971928-.5423827 1.37064-.8429007.128211-.0968312.243622-.1904632.34346-.2781231.051412-.0452164.092372-.083181.114131-.1051493.468898-.4830897.498124-.6543572.215249-1.0954297-.31146-.4956734-.586228-.9179769-.821744-1.2675504-.082345-.1224254-.154023-.2267215-.214396-.3133151-.033279-.0475624-.033279-.0475624-.054399-.0776356-.008319-.0117306-.008319-.0117306-.013866-.0191956l-.00256-.0038391c-.256208-.3188605-.431565-.3480805-.715933-.0970445-.030292.0268739-.131624.1051493-.14997.1245582-1.999321 1.775381-4.729508 2.3465571-7.455854 1.7760208-.507724-.1362888-.982595-.3094759-1.419919-.5184948-1.708127-.8565509-2.918343-2.3826022-3.267563-4.1490253l-.02752-.1394881h13.754612zM154.831964 41.1518926c.720831-2.3512494 2.900389-3.9186779 5.44367-3.9186779 2.427657 0 4.739052 1.6486899 5.537747 3.9141989l.054612.1556978h-11.082534l.046505-.1512188zm13.502512 3.4063683c.015146.0006399.015146.0006399.037118.0008531.02176-.0002132.02176-.0002132.044159-.0008531.530543-.0243144.950584-.4766911.950584-1.0271786 0-.0266606-.000854-.0496953-.00256-.0865936.000426-.0068251.000426-.020262.000426-.0635588 0-5.1926268-4.070699-9.4007319-9.091342-9.4007319-5.020217 0-9.091343 4.2081051-9.091343 9.4007319 0 .3871116.022826.7731567.068051 1.1568557l.00256.0204753.01408.1013102c.250019 1.8683731 1.04722 3.5831812 2.306274 4.9708108-.00064-.0006399.00064.0006399.007254.0078915 1.396009 1.536289 3.291417 2.5833031 5.393538 2.9748936l.027519.0053321v-.0027727l.136529.0228215c.070184.0119439.144209.0236746.243619.039031 2.766847.332724 5.22117-.0661182 7.299185-1.1127057.511771-.2578611.971917-.5423827 1.370624-.8429007.128209-.0968312.243619-.1904632.343456-.2781231.051412-.0452164.09237-.083181.11413-.1051493.468892-.4830897.498118-.6543572.215246-1.0954297-.311457-.4956734-.586221-.9179769-.821734-1.2675504-.082344-.1224254-.154022-.2267215-.21418-.3133151-.033492-.0475624-.033492-.0475624-.054612-.0776356-.008319-.0117306-.008319-.0117306-.013866-.0191956l-.002346-.0038391c-.256419-.3188605-.431774-.3480805-.716138-.0970445-.030292.0268739-.131623.1051493-.149969.1245582-1.999084 1.775381-4.729452 2.3465571-7.455767 1.7760208-.507717-.1362888-.982582-.3094759-1.419902-.5184948-1.708107-.8565509-2.918095-2.3826022-3.267311-4.1490253l-.027733-.1394881h13.754451zM138.32144123 49.7357905c-3.38129629 0-6.14681004-2.6808521-6.23169343-6.04042014v-.31621743c.08401943-3.35418649 2.85039714-6.03546919 6.23169343-6.03546919 3.44242097 0 6.23320537 2.7740599 6.23320537 6.1960534 0 3.42199346-2.7907844 6.19605336-6.23320537 6.19605336m.00172791-15.67913203c-2.21776751 0-4.33682838.7553485-6.03989586 2.140764l-.19352548.1573553V34.6208558c0-.4623792-.0993546-.56419733-.56740117-.56419733h-2.17651376c-.47409424 0-.56761716.09428403-.56761716.56419733v27.6400724c0 .4539841.10583425.5641973.56761716.5641973h2.17651376c.46351081 0 .56740117-.1078454.56740117-.5641973V50.734168l.19352548.1573553c1.70328347 1.3856307 3.82234434 2.1409792 6.03989586 2.1409792 5.27140956 0 9.54473746-4.2479474 9.54473746-9.48802964 0-5.239867-4.2733279-9.48781439-9.54473746-9.48781439M115.907646 49.5240292c-3.449458 0-6.245805-2.7496948-6.245805-6.1425854 0-3.3928907 2.79656-6.1427988 6.245805-6.1427988 3.448821 0 6.24538 2.7499081 6.24538 6.1427988 0 3.3926772-2.796346 6.1425854-6.24538 6.1425854m.001914-15.5438312c-5.28187 0-9.563025 4.2112903-9.563025 9.4059406 0 5.1944369 4.281155 9.4059406 9.563025 9.4059406 5.281657 0 9.562387-4.2115037 9.562387-9.4059406 0-5.1946503-4.280517-9.4059406-9.562387-9.4059406M94.5919049 34.1890939c-1.9281307 0-3.7938902.6198995-5.3417715 1.7656047l-.188189.1393105V23.2574169c0-.4254677-.1395825-.5643476-.5649971-.5643476h-2.2782698c-.4600414 0-.5652122.1100273-.5652122.5643476v29.2834155c0 .443339.1135587.5647782.5652122.5647782h2.2782698c.4226187 0 .5649971-.1457701.5649971-.5647782v-9.5648406c.023658-3.011002 2.4931278-5.4412923 5.5299605-5.4412923 3.0445753 0 5.516841 2.4421328 5.5297454 5.4630394v9.5430935c0 .4844647.0806524.5645628.5652122.5645628h2.2726775c.481764 0 .565212-.0824666.565212-.5645628v-9.5710848c-.018066-4.8280677-4.0440197-8.7806537-8.9328471-8.7806537M62.8459442 47.7938061l-.0053397.0081519c-.3248668.4921188-.4609221.6991347-.5369593.8179812-.2560916.3812097-.224267.551113.1668119.8816949.91266.7358184 2.0858968 1.508535 2.8774525 1.8955369 2.2023021 1.076912 4.5810275 1.646045 7.1017886 1.6975309 1.6283921.0821628 3.6734936-.3050536 5.1963734-.9842376 2.7569891-1.2298679 4.5131066-3.6269626 4.8208863-6.5794607.4985136-4.7841067-2.6143125-7.7747902-10.6321784-10.1849709l-.0021359-.0006435c-3.7356476-1.2047686-5.4904836-2.8064071-5.4911243-5.0426086.1099976-2.4715346 2.4015793-4.3179454 5.4932602-4.4331449 2.4904317.0062212 4.6923065.6675996 6.8557356 2.0598624.4562232.2767364.666607.2256796.9733188-.172263.035242-.0587797.1332787-.2012238.543367-.790093l.0012815-.0019308c.3829626-.5500403.5089793-.7336731.5403767-.7879478.258441-.4863266.2214903-.6738208-.244985-1.0046173-.459427-.3290803-1.7535544-1.0024722-2.4936356-1.2978721-2.0583439-.8211991-4.1863175-1.2199998-6.3042524-1.1788111-4.8198184.1046878-8.578747 3.2393171-8.8265087 7.3515337-.1572005 2.9703036 1.350301 5.3588174 4.5000778 7.124567.8829712.4661613 4.1115618 1.6865902 5.6184225 2.1278667 4.2847814 1.2547527 6.5186944 3.5630343 6.0571315 6.2864205-.4192725 2.4743234-3.0117991 4.1199394-6.6498372 4.2325647-2.6382344-.0549182-5.2963324-1.0217793-7.6043603-2.7562084-.0115337-.0083664-.0700567-.0519149-.1779185-.1323615-.1516472-.1130543-.1516472-.1130543-.1742875-.1300017-.4705335-.3247898-.7473431-.2977598-1.0346184.1302162-.0346012.0529875-.3919333.5963776-.5681431.8632459">
+                                    </path>
+                                </g>
+                            </svg>
+                        </a>
+                    </div>
+
+                    <input type="checkbox" hidden name="" id="mobile-search" class="header__search-checkbox">
+
+                    <div class="header__search hide-on-mobile">
+                        <div class="header__search-input-wrap">
+                            <input type="text" placeholder="Nhập Sản Phẩm" class="header__search-input">
+                            <div class="header__search-history">
+                                <h3 class="header__search-history-heading">Lịch sử tìm kiếm</h3>
+                                <ul class="header__search-history-list">
+                                    <li class="header__search-history-item">
+                                        <a href="">Kem dưỡng da</a>
+                                    </li>
+                                    <li class="header__search-history-item">
+                                        <a href="">Kem chăm sóc da</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="header__search-select">
+                            <span class="header__search-select-lable">Trong shop
+                                <i class="header__search-select-icon fas fa-angle-down"></i>
+                            </span>
+
+                            <ul class="header__search-option">
+                                <li class="header__search-option-item header__search-option-item--active">
+                                    <span>Trong shop</span>
+                                    <i class="fas fa-check"></i>
+                                </li>
+                                <li class="header__search-option-item">
+                                    <span>Ngoài shop</span>
+                                    <i class="fas fa-check"></i>
+                                </li>
+                            </ul>
+                        </div>
+                        <buttun class="header__search-btn">
+                            <i class="header__search-icon fas fa-search"></i>
+                        </buttun>
+                    </div>
+
+                    <!-- cart -->
+                    <div class="header__cart">
+                        <div class="header__cart-wrap">
+                            <i class="header__cart-icon fas fa-shopping-cart"></i>
+                            <span class="header__cart-notice">3</span>
+
+                            <!-- No cart: header__cart-list--nocart -->
+                            <div class="header__cart-list">
+                                <img src="../asset/image/no-cart.png" alt="" class="header__cart-nocart-img">
+                                <span class="header__cart-list-noitem">Chưa có sản phẩm</span>
+
+
+                                <h4 class="header__cart-heading">Sản phẩm đã thêm</h4>
+                                <ul class="header__cart-list-item">
+                                    <!-- cart item -->
+                                    <li class="header__cart-item">
+                                        <img src="../asset/image/laptop.webp" class="header__cart-img">
+                                        <div class="header__cart-item-info">
+                                            <div class="header__cart-item-head">
+
+                                                <h5 class="header__cart-item-name">Laptop ASUS Vivobook</h5>
+
+                                                <div class="header__cart-item-wrap">
+                                                    <span class="header__cart-item-price">17.790.000đ</span>
+                                                    <span class="header__cart-item-del">x</span>
+                                                    <span class="header__cart-item-qnt">1</span>
+                                                </div>
+                                            </div>
+                                            <div class="header__cart-item-body">
+                                                <span class="header__cart-item-des">Laptop ASUS Vivobook R564JA-UH51T</span>
+                                                <span class="header__cart-item-remove">Xóa</span>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="header__cart-item">
+                                        <img src="../asset/image/laptop1.webp" class="header__cart-img">
+                                        <div class="header__cart-item-info">
+                                            <div class="header__cart-item-head">
+
+                                                <h5 class="header__cart-item-name">Laptop ASUS VivoBook 14</h5>
+
+                                                <div class="header__cart-item-wrap">
+                                                    <span class="header__cart-item-price">18.290.000đ</span>
+                                                    <span class="header__cart-item-del">x</span>
+                                                    <span class="header__cart-item-qnt">2</span>
+                                                </div>
+                                            </div>
+                                            <div class="header__cart-item-body">
+                                                <span class="header__cart-item-des">Laptop ASUS VivoBook 14 A515EA-BQ498T</span>
+                                                <span class="header__cart-item-remove">Xóa</span>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="header__cart-item">
+                                        <img src="../asset/image/laptop2.webp" class="header__cart-img">
+                                        <div class="header__cart-item-info">
+                                            <div class="header__cart-item-head">
+
+                                                <h5 class="header__cart-item-name">Laptop Dell Xps</h5>
+
+                                                <div class="header__cart-item-wrap">
+                                                    <span class="header__cart-item-price">15.800.000đ</span>
+                                                    <span class="header__cart-item-del">x</span>
+                                                    <span class="header__cart-item-qnt">1</span>
+                                                </div>
+                                            </div>
+                                            <div class="header__cart-item-body">
+                                                <span class="header__cart-item-des">Laptop Dell Xps 9343 i7 5500u giá rẻ</span>
+                                                <span class="header__cart-item-remove">Xóa</span>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+
+                                <a href="#" class="header__cart-view btn btn--primary">Xem giỏ hàng</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <ul class="header__sort-bar">
+                <li class="header__sort-item">
+                    <a href="" class="header__sort-link">Liên quan</a>
+                </li>
+                <li class="header__sort-item header__sort-item--active">
+                    <a href="" class="header__sort-link">Mới nhất</a>
+                </li>
+                <li class="header__sort-item">
+                    <a href="" class="header__sort-link">Bán chạy</a>
+                </li>
+                <li class="header__sort-item">
+                    <a href="" class="header__sort-link">Giá</a>
+                </li>
+            </ul>
+        </header>
+
+        <div class="app__container">
+            <div class="grid wide">
+                <div class="row sm-gutter app__content">
+                    <div class="col l-2 m-0 c-0">
+                        <nav class="category">
+                            <h3 class="category__heading">
+                                <i class="fas fa-list-ul"></i>
+                                Danh mục
+                            </h3>
+
+                            <ul class="category-list">
+                                <li class="category-item category-item--active">
+                                    <a href="#" class="category-item__link">Laptop cho sinh viên</a>
+                                </li>
+                                <li class="category-item">
+                                    <a href="#" class="category-item__link">Laptop văn phòng</a>
+                                </li>
+                                <li class="category-item">
+                                    <a href="#" class="category-item__link">Laptop chơi game</a>
+                                </li>
+                                <li class="category-item">
+                                    <a href="#" class="category-item__link">Laptop giá rẻ</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+
+                    <div class="col l-10 m-12 c-12">
+                        <div class="home-filter hide-on-mobile-tablet">
+                            <span class="home-filter__label">Sắp xếp theo</span>
+                            <button class="home-filter__btn btn">Phổ biến</button>
+                            <button class="home-filter__btn btn btn--primary">Mới nhất</button>
+                            <button class="home-filter__btn btn">Bán chạy</button>
+
+                            <div class="select-input">
+                                <span class="select-input__label">Giá</span>
+                                <i class="select-input__icon fas fa-angle-down"></i>
+                                <ul class="select-input__list">
+                                    <li class="select-input__item">
+                                        <a href="#" class="select-input__link">Giá: Thấp đến cao</a>
+                                    </li>
+                                    <li class="select-input__item">
+                                        <a href="#" class="select-input__link">Giá: Cao đến thấp</a>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div class="home-filter__page">
+                                <span class="home-filter__page-num">
+                                    <span class="home-filter__page-current">1</span>/14
+                                </span>
+                                <div class="home-filter__page-control">
+                                    <a href="" class="home-filter__page-btn home-filter__page-btn--disable">
+                                        <i class="home-filter__page-icon fas fa-angle-left"></i>
+                                    </a>
+                                    <a href="" class="home-filter__page-btn">
+                                        <i class="home-filter__page-icon fas fa-angle-right"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <nav class="mobile-category">
+                            <ul class="mobile-category__list">
+                                <li class="mobile-category__item">
+                                    <a href="" class="mobile-category__link">Laptop văn phòng</a>
+                                </li>
+                                <li class="mobile-category__item">
+                                    <a href="" class="mobile-category__link">Laptop cho sinh viên</a>
+                                </li>
+                                <li class="mobile-category__item">
+                                    <a href="" class="mobile-category__link">Laptop giá rẽ</a>
+                                </li>
+                                <li class="mobile-category__item">
+                                    <a href="" class="mobile-category__link">Laptop gaming</a>
+                                </li>
+                                <li class="mobile-category__item">
+                                    <a href="" class="mobile-category__link">Laptop cũ</a>
+                                </li>
+                            </ul>
+                        </nav>
+
+                        <div class="home-product">
+                            <div class="row sm-gutter">
+                                <!-- Product item -->
+                                <div class="col l-2-4 m-4 c-6">
+                                    <a href="index.html" class="home-product-item">
+                                        <div class="home-product-item__img"
+                                            style="background-image: url(https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcQH0eadEFIrhqIFIkOL3FV0JxJEtItjSXDDqk1X0j5N3NGI9t7eWsBEyjPsnAZFZ3pkFKZXhiOXZ7pVPh06C7iEu1aglE4HykJ84UurZhY&usqp=CAE);">
+                                        </div>
+                                        <h5 class="home-product-item__name">Máy tính xách tay ultrabook Vista 15.6inch Ram 4G Rom</h5>
+                                        <div class="home-product-item__price">
+                                            <span class="home-product-item__price-old">15.790.000đ</span>
+                                            <span class="home-product-item__price-current">10.090.000đ</span>
+                                        </div>
+                                        <div class="home-product-item__action">
+                                            <span class="home-product-item__like home-product-item__liked">
+                                                <i class="home-product-item__like-icon-liked fas fa-heart"></i>
+                                                <i class="home-product-item__like-icon far fa-heart"></i>
+                                            </span>
+                                            <div class="home-product-item__rating">
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class=" fas fa-star"></i>
+                                            </div>
+                                            <span class="home-product-item__sold">15 đã bán</span>
+                                        </div>
+                                        <div class="home-product-item__origin">
+                                            <span class="home-product-item__brand">CellphoneS</span>
+                                            <span class="home-product-item__origin-name">Việt Nam</span>
+                                        </div>
+                                        <div class="home-product-item__favourite">
+                                            <i class="home-product-item__favourite-icon fas fa-check"></i>
+                                            <span>Yêu thích</span>
+                                        </div>
+                                        <div class="home-product-item__sale">
+                                            <span class="home-product-item__sale-percent">40%</span>
+                                            <span class="home-product-item__sale-label">GIẢM</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col l-2-4 m-4 c-6">
+                                    <a href="index.html" class="home-product-item">
+                                        <div class="home-product-item__img"
+                                            style="background-image: url(data:image/webp;base64,UklGRgI2AABXRUJQVlA4IPY1AADQ/ACdASrFAcUBPj0ejESiIaGlIxPqaKAHiWdLV3Lr38hEYSEEZXnIdMqA/a4ptXE0VcwLLf2DOv6v9jpp+9H5by/fb/td9rnyx9SnmAfqb9F/Cp84jzhPSA6q/0APLm/ZT4mv8f+Kvsean58t80Hz//Q7+fNb7c9w/3m+t/820Z9kP+X6F/z/8afhf8F+2X5k/eL+78A/kXqC/l/89/y/qDfhd3BvH+c/73+f9g72J+n/6z/B/kp8P/0v/Q/L33X+yP+4+277AP5f/Rf8d+ZH9t///17/0fDR/Bf9L2BP59/a//F/ff8X7ov/d/pv9B+xXuw+of/D/nfgM/n39q/6H+B/0Pv0+yv95fZl/d4htKrM86D2NSABEXjjqQAIi8cdSABEXjjqQAIi8cdSABEXjjqQAIi8cdSABEXiPF9FowlNlUrd+YRURLPesVESz4Qv6e1Fjyz3zS0xMIqI4PKfJJ2M18X5xqac279Al/9HLJoxLOX1pZJp1Gyz8BxdJsy+mao2GFhPCqnE7bUGW2J+RFT5bxkuwyAmORXoFA/w/Zc+WJ3kcSvrnWefaZKKXU2lcamZcruW7BSWNbUqlbOxeV61VNJ+ro3ZdrySfKslcxcv+qx9sqfOzA9/dDjfHGYCuMqh+bxqpH3W34nPIU0JHosEAFs5fkJI+SKWKUGZKIR4a+G7jcChAwKsZpBIw+AzNevwUGYqenIY7lKHdsBGybUfuD3mArjOHOZWP2VGofl4lEYYoQL7dLa6tLU1k+BmGnK6Y82HgUk8ey8abMOlQLl1UVOA26Y/MV79f///0mm1srecl0e5/6tNsUN5gez5JbWlj+dD2GDeipGhYW8Kpnr4k6m+tvyFoGEffARW9jr2uAlq0UGG14UTdPt5IFudc//8+SHBn8dh7CH+3FsaGYSVFvHEfv5QBv5wEyNHe8u0XAuOv+bIm8aC92vKOmQXQI9gcjjJ8nZqltz3z/rKcccZ//oJji+r2ZPsiVFDnrM1DqLHOe90KeGH5X//EzYPnBl3N27BcbJBgO8Xx5ZJNJWb/rfiISUtCY/SK/imSlm87Yvcl/77MqwQutin1DE7/rz/wZPOJm9n3rFUsJsq0NJJec2XUxJwDmKQhxjfn/+diOPVkTTWovkBXGVQ/NJu1t3srBBIDdDhEW6sTu86d+NdorLTVYrLYrybeRApEoY2th5CDtdSt0PSSgOyR58LjwsB2K1N2TZpj9kqzUvkPd78OjJxD4mOt7O2WaL/eIOOWb+hAn4kef+Ot5LDrNas+Jbs3rOFV6Su+LlXNQB/bh8+R6hgq3nFvXD6+h/hqjcXTSkM8ye9CMeGpiltKwY7LJDuWu2U5fTduEVTzaiXZhwbGxwcZqHUTnZxJmvnqcgEyDe0QiouaDec4/SP2MxP/9plZdd4nFJ1ZrTv//i7MuCoVKFRxD0i+ACL7zo/Lc96Dmh5NBWojuLj0qk5BangQ6nmxc45C4V9Nk1g61/bfCyf4WFufFyWjrwfExcX4Sm9pmb39N/+8Xe4UVXJOITcMuBakzM1rZW8483Js7SkcVAOQtqb/Opvnt9UBzgjd4VYXYcXgmyGAfc7eFAHd9WyC5Z4hPMBXGcPIxe63P63BnlzE89RN+iUsZ1eGIXT4pbnCPOhWA+yXKVNHhAb11JHzXbALFnDpHTkNV7N4MW6qWlsgYCTK1mEXhtdzop3do15I1OjvRs5SNrArZGgQ+WoqjFAwiT60viHzB1na5J6PBb85tOlhRpZDtQHIvVnyCkXHKW/SPWameFJM+WMZfo0mx8S5Hf4oNT5SeMFCtBlLtr9AXjslFB/4pi+471FG8ZEwb1CvlN1y59NzIX2xRvcPZO70dLefKBb/qPj6BWoxSUJ25wPY3mTgpQAbW/aUeDjsoqABUPadwfvKsNnEEA2Q2Kk39e4WNFCJRyFZY/pBTIaqVeBHJMbjOfLemerqG3M2CRTlYNLDPk/AzxYqsUmvQFKlXxaRdcZqCo/FaYRI72tC1B0W3rV5+R3lrYNDUMKPcX6PnmWibTVuqqBjoVTOcBiEPrEapRJfq4NqtVSD1Ek0QBWxZl4QjO3OJZ1xXBZjWqmtxZWF1daQTjAO0EepzaFpV9dDCLBmRFxNkCXFsocDT10zXz4fnhE0h3GVvZRKdsv7qlYzrtuD2h4vwbNproyB2BPMPDHzp4/0+yDnp3IGw36b71PyUgUNkKm3x2gkG5c3ONVi6IfRI6mY0sdQqki1QyL1Hm5CGjXA19oy/DxhXYf9HXJH4WxIaa1D8WZIj6nzcZsLI66jtLEb9/xVhVU3qi7xUc6aIW9ZcUD00Bf/+q+VkDgOSBX6ampkWa2MVvOI/n+qnr7+hJZ4c6og0oRliLYszxaGUoYwKY+wDU5ABndUJ1fqG2mMsYyos2NPTveu6Xtd5yreOzCYsBQ0FNtwisthMHG6qK/W99x43byNhe+KCUicLNOHIjgxJAGGA/D1xigHPuzkjos5/MVELBLG3dNL61ZjVJY8bVXVnTtDSwS5Su90Y+/b3LSeY+reWHNkpvHvscnbBFHeQ6mLwPsWjQdVqtOU2ZsKwcUd1FGNbXUn29l+mDhdg+zD0ySPOWgIPtHDdO/N3QxNVN9qWflVmedB7GpAAiLxx1IAEReOOpAAiLxx1IAEReOOpAAiLxx1IAEReOOpAAiLxx1IAEReOOpAAiLxx1H/MAA/v/KugAAAAAAAAAAALPe4SlWwYZzKHN04koz3LQ8hROx9izBfPY7BqRRluDOk3kpGmnNoITjNPIvOjflgOWn4BlAA0xu0L38LzyMCd0Hn+eKicegLmn0KAxOI/3XMkQSXrbfQa3lXAnH7SdLCSYpE3pntNZLSLKTGtGC9eXdEB3N+NIi0rbyusMFsNLRQVBKko701jhn89CVkH7ZG90+EWjon63YTxoqjVw4t9tere8OXqWx4h/mTVi0HnP3Dnz6+//f/b0pvQ6oTPjiluzzO1lIxny36Fd12xnGLurzb3n7px3O4lT02p2uP8k9njCyR9Lmh8ZUpv7p31oNlRpAeiD4u0f+729CKQgGOXjs7nempYBGPHb/YhDrvY+CpphHTLjZ180Va5vWR9gORSHzPw+N3Mbo6Z/0i6mf8nCQb9tncts/j7kBtVA8tfjEP8dV2bHd436tN1XIN5o3KAvy2slBk3wATY9C4ylHt7hFdosuNjXexAoCqAzRiudHRnvXuZb3e15d35brbeC6017Ac9d0TrIDwEYefK7qVZnBmCiRCF9EHBIYThNYJMuIfbyX9KJAW95/q8zsiaeQLEPmiDApUengNo3jV+a+JHSbXRvA3gssYkRGtdyGu98i7kNs0+sZNJq60boux45dyuV+/R4uyJz800Vgv3HBuB12YWA9kjL/taz6/mHlo6CatfTwAzhKm+Crz/XZPBVKTjx1GJAB5dkKAipr3GppvB2E6zUg7HqX+Bb+PfXchS1Pnz0buepu+0dI4xivTapl14sNyo4kUcmcsX+vtpfoWaN7fpS8coDLviDIvi5VEx6PVL7TkCoH5sbEayHAlZ5/Be7BqYlwayMZrKJvBhUhnL/6YVMHhyOjMKnUc08d0SOsLSOy/Cb9hlAb8T3pkBdaNsh55qarcUthGFNy1tu89lJIc4ruWCq8te+eawTAOUC4HRe9RvyXpRDkhqu7HySuJNxOxyZSCN55KgvQBJU5m2OIkiDsGlNaDc83WkQXDrH0DiMm9HBVgIR1JJzw9+DcQzp57Ni3aeO6yrlAd3dfg/+uc4XoeQBpm8GYjM6FsbbC5ALlBhKQnc+Jpf7w3zh88UCmYD+Em1uDxHfvMtuTXXPrEedsZdB82CHhMNVwvy5Ipw0PNJ8JzdDR5Hf2HYpvme4O5ikytEdd/6wxp7e2R2tiQbQSckNR9BjGqNVz1vkMf3P8j/Bqj5/ovyVeWYWX+AuhQJFbKrDL1v/+mu6+sR8muyHB2MmKDgpAmUfEdQ2q3ZrTbxRl+pKTd2jb6yG8EoC5AD79gVrqgJU0rw2ZqAYpvtx0NOi6jHvJp9UPX2IR76D5+XhX2FzWJG6Y03RQFFiftzjdMgJ6HTvuc/vnGm6c4AmlKBZVs4gkRGf4wUpIniHTTBApX5hfeqhZiIky4gsQoVic2yyFwnUhJtikmeEN8N83Pm9zxZn/xpKfYAMu25ZaISHObjN4csi9JRw0G4cygWDjAcP/VBFLsDRHlLF7/beF81I/CsZNyTRzc3QPUz7D/szOfN7+06my2zUkTz14LvTayvfyCb4LqYOTX2qUB4rNVfSDlNNVhTC1wGySj4SfNnU3L8NET0fW2rOzq5ywOgcT3KYeb8pmRSzQZ5vj7XUdstQad+U4W/nPlolU0XF5AGBxR/CvdNn0c8iYhdVL617nlVLN9vEwmCCkWFaolEGXMi9bhMZZOgGa0QpQHZaz8B8/l6VYfrcK7GOSTgKgWj99kV3ehMqF8ngx/4SCMN2hgLm+f1/3cCaq8xPRxCpKKyslErLHACEnzo4113gJXDpYzTi+gVE+QSbLqdqKwTkrTG4RnJT9fMCmm9gQElkvgD3JxkROsGm0zyzK/oR60NMwBgAhK5/xinEAuIZY0GSF+S8noud8d7sFZtwTfCIn8lcIvk5+fEVwyvH8EEqJucLBqJKE5nU74P8+ZOuSKa/sBi5Fmu/zQ9CpB6cn9sXdTTD/Yhatu8mHXJgfBeQutuziShT1bZuD1Ca6Chx0ENBcN+2mECez03Vr2CQQSgTHCoJxfDhpAA4ECVkLs/zgfyqd6ZUuSbdL56CH7zNbYCSAhENHb4ysA3wXiIZ/n0gOiQtp8bVKbcN+3QAOgjsxUUeyQGW5f9N9WW3REPrDdvLGyqLQ1Uw2kc0DfKmzXGzepSs5Df9fTekvUNCNO1HQG36ksOhiW0vi4Btd/oVrGNQe2RsuieANrt/A1vIouOXrH5RiDwkvI14R9w+tElSay1RkNf9oUeUVH5CWv7SBYVLAf5zNWJI9+qeBoS2kMGVN6ZyeyfKGllL341oVATd0wfMpNJFNf8ysIUHg5wcjCBu9laZVC5nlmxB06AQpKX55UpHq9dXMNWB23XRUJS7kwxl9XypkOg2fIupIUQMSDdK7uvLVKB8ylCHU4KbptKvvreZbj0dtb8GZ2qOqdluUgaLfWTDSvnX7JMYvTktteaAteXkbC0vgvw6SHt+IBIXZG+YTOxAg8SNRIlpnSieLiR62Wf3NqiHMczvlftEPxec6KTTqauLW7FYeOxh6uvvUU2afG2fMSN+3ADZtqpDDA4XeNOtlF9Hna6GDBJ9P+xrbZiQhp04gTx17W2KaUOchdgz4MsEEDaeBBXE1zPTl87Qh4mqF0FYrK2fzZQ3oPD38Md62StXDhf3gsKs+Wm4FYu50MDxeezZAi9+NAprg3pzBH3+DBU/7nsu55cL5AoDeiqDvZtE1W7g27eTRXhEMyt8Id2Ye1GaR45ZTxNCLbQ5dF7p/BsCYYsrKOLGDIGW9w4CETCNF+mnUo0qmHydW9YPZnzpGtd8SQ2vZnNIiaE5vt4DhbSXhz1D7qkOSoK+JrFPmKDwwXtvchpki6jZ53sHzG3yiBFAwZWNJBvpw5YvkwZpQ4MIkqtSjq9Is+o05IwK2vnldCkeufySq+ZZShg2SkYqTevbMIj3/bkdoaOXPV2Pn7AGQzX1Ccp9VvYjIJnWTA+2mTFX9ldb0acAqOXbJtrkon1kMWvkc2taICmHs0XVn28S8GA+8SJaaFEAazixj8qcR0kZ3tEhrCHa5wdiZVazZA2/xo25KjLBEuzUcsY8b27PaHuo+wUClvqRXl/yPnbdd/Sn4rUKGVbivbUqpt3JSjbSxQHKNVwWSdvqEF6cabLJLiNvoYzGYBC5as2WQZtMMZu7+TbR45PPKx/ckPPcrm3zPqvnqjSrI8PWLGD46XQmG4RjKIUcU2p2wAn5B+cMY34IJBXUhgaWD8hHyPMmPnVAX1exFRcV+zdffrjqm+hnyTnhlWMeXo9zdro/OhxAlgTOKQbIHNf7EVqu0ELknhyev9sQqkMQ/drvJqvYHqXAQkLUT9rseB1CXwhKQJCdE/JPAridUNPPBbGLq5duINMFgXvPl1hDwAcTGqCXJR2AV6RFZczvA40YO7MN2KkyxpNz6ZVRh83b0coChy7j8PVUCsmQZ+wrSbmfy71FjH7dCXQU38Lw/v1c4ojy/UKRWqky4YiOPUQ1akpNoxUuSuBpLMz16AhV7TSKlY2cQScpjedPQv49bW4VkAbPye1AH/K3NFT12TfZE/Ix9/SC3V2MHIkW5uIvxaZvv08lcdBA06W3gXuyxVXAbBdbDqSLvbDKQHadXMac9X7AMMAYjsIHpNpUO6VfQHpwoAfJ8F/x+VDgtJ+PI/gCxYViOYN0JF21HHSrTVEzQkVsXFqURATTlYFKYbehcZj2CeTKpcaAQqowLKPFG3VgFBpnyT5xfNVAN60xo8pWqRXAvdOVK/+MxWFmJFJBcBgXVzrvmjhSwmxg/MNuaXHB9D+EhRpfgehAcBL1EM2xtMFgwG4B+As4NejRnba/FRr+TTx1fC4EoXEFHjKu6+nEbw/jCF3e0qGqq/+FFd0qeVCSjiAiCXb/robkwXGXNWgoeKi3+jGTNyQ5GNXlJk1MQds/XZkzLwDKFZK6iI0nh/Qu0fepCa2LzxPA4Ze7aH21StnkuMaoFmoEZ+Z6bRM7FV7MbOkt5LzMlClsSDxGjsSJJTgZs450djgseuowBmUaMuSFOCOBk21RK9TChdB8VbviunZjPBqaXuopCw137t8zlAMDnq0gTzwIuzD6XHv6JruWIakbG1MUb5vX7ZT5LI9SEvp1+q0twyNJxWzKa0izDuEIgdx52+Hs8V7OgKpr2CeHq7UE/WII+Aa9wbeltVYOLJE1GfIXLZ4M9TTNHJNLAaIdf7xDKJWtZKC4KROWoOVdzCg/E32FjlSTJLEQn0bv1BmZpfFNRGtb0naNrogo3DyJ+wR+zj6QZfOmNZsTq46RageDCnBNzLEb9OzmgsJfFJvY6yhlb68bfQntXOxsoONp3Byy3mN3J+wGZe3FnUW84ePcsJ7QbCCImGGQN8cxTArBFDvRu+0xmyTafJgeMAblLqWFq8ZeWornSyW70FUjw+Rkv/ks4H1Cw9sxM8z9Q0QT2OlBwfnP+Ah9k7BGEcpgcquBVD7zKBY/xbNJwFaIbR22f9bh5TwefB/AD+XKVxKY7s8pCNM6oNiRu9apcpFL8wzLh7Fu1HLZ976RFSUjUF+nHgf0MQDQSgRiU/KmtBi1AR21AaXih5Ax74/q/YHcXXZrgcy1NBLFHPLFGg67t7LNh1ephk3lyGgsXc4wglDXvtZgMi6P1ZsEsBMq513UdTd+LYR5pbw5qXen1SLUeNthJmBgpsej00Ex5eAlz2mNNXsRzz0Axi5QdDrB/xWBoMWauH8QpQ+g1BqhkOBJSwZ8c4z9tSKk0Tuuib7+nBAehKPMj7uePv+L1d6Ixhxu4dJ0jzwno4PacyIB8Q+303ge40ZHvwxP3Fy9TDxCvoRalXwi0lJAdAJNuv69EgwTTKJjFfNqJPvv0tseV5HNocABGD7PbS60JArQ2J9CDzmfAIlEnTACLTEHwL8ioMB55LFy23Pqv08DL4Y8KC4BQBY4zOmi6zomdWDQ2M8s8Bs6RpMa25+GpH8dg/vmVY7tUF2n6mss2s6OATtM2s6dE0zYpqMjCby0ObRYHLil4ymu0T0/EPdxYJFTD/LFa8RFbVU2JVYp0O9f3AKZvcyxWGxT9sbau2vf3xRlertScqly3E8ZtMXAcNqTnTG2gkIRIYL+lVoxHXw6Z4AHvYwpo8UFVpvo41MQmt2kz/StAJO0BN4LXNTiyHz6dTMwQuBxEKlEO01WD27ufTQOPqRyjI+TersK9JhCO5bVRhWwh52qz9bh1mXWRqWeBkFTpP3u7jFlsuG0Ub+F2zXnwCyCdteii2F8OuOmOlBLd7E5nk/JlvgdKGgH6CL7pBxApxtwWY4v1gLbNKbpZ7shRCr/skA2LS6U3cpytIriy6c8pKsziNjzQ89MuLEpC+l2VV9fdnumMtqQcwB5+SYWT1ofY8nhZ+IqTDOJ+MH34FX+iqPGb+GMdD9f3FqhZ+oKNHhvVUZE6kbZjfQNaRK4HPC/TwpsTvbUeVNkWmZSHoKcorg1KagGIkz/YVofpmoUND8QtK3cT0nR53hJiC+rwB6DKoZXN7Mg+ADY8AcvTMBdXQDKklEETFlgH0VYexWY1seEbAeUSDTIgqn3syn8hwDLL9XQHRO60VQQ8GVSHPwRrFOSdzpf0aHclC5yuU1Ta1gbty+Vdj7WIdLvrRS//b88TkPCljsOKWZg0Pm8n6DEGhUsIgwVhogg0vCuYei/tWeJIlF6h15QMLJKWhl+iK4hHyp9X48M86/icyuJhw7+hd1vsNQ0t09okKpjvjm77z/3Lxu7I+QJId1snQb0jUSJrvJOGnT7QXWhRiLHEaPWa6GjvUGEdoXEjtAW+t004K2XfRKFJxFVhYd/kCjwAD2T0R/cWEHoLC3gbjkAz47tK+UqiltaIZlBnDoIIaVoROBY3FubtwgdzoGn4whF2MuGmZeZUN98OymnP+GeQ17si6FoMlDSY9nqZ76hyb5dlz7+rVMgX01rmBssZCYMyz6vZJyxs6hpQx43T6+c3fiyo1Iv7a2APeDGeQCKsIweHdS+/iqC2FF/MwhxZhCCtYiqmJQtdMY4NdciTIQBKbFFdKLfVLXx4vjdjkoXm4Vezn/WmIwGDmgn67QHWyYeq/GJEEWypWIAN4CM5SQLQZDD0Qif25sz7vNhidFYvbWY8iA0pyql1HEK49oe5xvs7J4J5XyARvjdWWJOnVwrhVvBXxs+DWPD2BnrYaX/9Gsd86/epbqVbk3AyabAV+ppRefI9B3EaLMNzr5ZkQrsNU2BripPE5zYUEZQzdu7DgI4ZHlLEZnE28PczdnGgLCU+PIpP7+6IrdVjvJVZg9DXiDzDLR+8OrnrvOXnBhVSxNykoTDCJQF/x0JP7yrP2zKK2zDm6YbQBYac4Jl6x27SUCzvy7quPZ0W9o4YBvjwKw5I+EpsD8zc/kpqNvDNGYIogp7+CUpaM8RjCbQ5iwJB7no9t8kKoX8Z6mkpo+36Xstvgca23r3q12+9oleZeE+xTggYONgvIYY1TpzSGw/6HIJBnLF5IkyIFlYKZhN5wMrjsexsI13AQWWxw1r2pWpEdS3vETVwIgU25xT0Y8MJ6Jlbse/7kfib7X9+OHUqqeaZDrh2luhyR0jx79FdPC1AZfHvi52R85yCcQQB0hGlwrQQVthceCeasf0CPgUBFASslfPHGG2MSGTZ7Qp2eGuz3+ZYO99B1LZZUbDYrfD6xWA9NAaAiuFQV+6GUl3CHhplZJR3UekonivrZCkkI8GJUn6YFpi5latD0doNkFc5CMFZzdGa2w2bCL+eoklFe0rn8RzPov5BPfjQggamXxGtQEzGBUNcu/r0mTCY1/vOg1mKL0tMSVPz7f02j95RIYjGt4rrrSA8aFfP//enmPOKZqegVgFfJpkcNF8VvaOGypxKLWgmM+GvM3ueWQgt8E9z10aZb1zbDbTsRjIsfVSfRviETqOEuZoa0h//hwk6EannQl9pvCeIt+RoffsOvPrVZvQRsaWfIhhrjC/JJj0kRvFayZa/hJhtY4vzvDtim+WQQEJHXTjA7Z3NORSRz0AKSah6N9Z1j7D9h4zfeBjVp5OTaddE8PyEzcN0SDDRGVsYBdSrsXl9XI8A524nIGalvR8N8i9+I1vin2odtLZx1SyF0lsmtKDh4uSSzJLrePE5afeE/wg4/0gmj4OSX4FyxYTThoOvyT2d2Rod56fGMe+BCq61kJ3/h2WBeZN7qFuOrbAq+wIovXYIfhiXbj62IVT253DgmsZ7rwzqJuzuUeXfd4+QV61oC8IhNCyoJtoDymTFsJsJnQdzE3mivzFFWcagTQSx5YC1nNZfZBbZcfQocQD0nnnWfQmeB8/Dw4YYhHccYQJCQZG1uS7D/Xk1nlDTUBiLmajSY6GnVnhYY3xkpRzkFF/NeB7AJewIC0u5qMRU363iAJX+9s97k8D+kwgSMJib58hcs0NfVUrzs05SlkZyBNSL5dBTN7mYQ+wJHtmz5nM8WGy6WJgnzIMBifoaHYBskVGMKv8s38OMgDuR6l2lKok7ulaprtZZQc6TsPcN3KRdlLFYgRKP3LI/zzY+lQB9c3F552gVZ9r48j39LlTk5UYuwXiJYvg+QCsx/he3Px8IB0jnHH/nKCP2FiCLtPJX06TSg/4lABCrZjm2GsZik4zyAPtdWQgCsUMFkbK6VH9b2ihwrFDBi/6OEvyxsQNCRGBLs9/DU/uS8/uXYuLZL2bsYfbJ8mngyHxbZmdyqVkbC0pfiTYfpSRccshLBD/4wVB3zzlwbfoYfOijxgfW0bR6afmAikXXTrK4GXXEpw3hEHxE0Rls+Eb4chVofGvXM6ISEzUhliG728ct+vf7WSY7dwDpIy8emkiku8uVkqn2yq3icvqjg3gZXHcnl7xTt4UkePUBIlJmVKbbNvM+s8vPAbuMqG//3rLsuU9QWxusF+mOsnZseK55wP0lPUoNuxHZ0bbrp3zeq1z7PXhz4JjujqlSONxsW5uejJZHM1Du+BywkH776eVwlv7pPp7vgK5wv0GZHsunEN96SMSd/iCTenhS/rpqRcMMHEe2fNIYBYaIHBZSyxNQnw9WgpcA2otYVbrCmDMD/WEPiB2WkEsjW1sBxHA4jYz0rdDV5v5wgIJutdATAR/uRyykH8VHzRlfIePwAdYSLi/PAFyS9Q9rUBFoePJ36u/UNw70OwCuuMxxvcCbrBL8LXlAwPyEz2VwDnkVg/G+1p6uGM1OA09gtwEzmHl8MpETxSqr8VtH3TJjLssRpogLNTIsaxpUse4pDDTUqHQnIrox3tYtNYE29FAQIgMw2zP63mLq2q/HyJ9iCGhQiiZMZP2sp/5QfgQL3zrUG+78jx2fAoC0X0BSOTubehCzSCYaWMiDK9+ozlj1+PZc3ViBNiFh/c4BeXTGdNHG71+Tt1E1On7JRvwXhFef/4K7Zydy63SPKUOdZb+6gZJfxT9E8H0p6hNwCK/pRcZJKiq351Ea3dP2z6mcUPciC+d6lcPVKsdNwX8j0Mp0gi0iqEjAKIiFookaiEvmq45887hesJwPlll65rrpj4JM8wdc8B66j1xAzEd+C5z28SyzcZTl5AYYyWmdJx2q/P9XGamU4UN51lM1k0v7GMhqiZizgla45NGofnG3kVUhdcSsL0kvSfvdlV4BQzvF4+dn+viShSvmeH9neZ8Y6VHiyjrqAr/uXrpR6JVZeeZdTi8ELxWPCFGP0hYruL/w6NO8EjDM8/+9f1f58jtZecdg6OP8sTDSssczGrsBg79HuCLvkbJEk+7MPfd7jMFFfQi8LUdSIpVHdcLT1ojmkXCAtmtbRvq6yQksP7xpUb2m/ISXarr3FJFnKaKH8k7b7UEas0XZpN6u1iOC6r/qsWgNfP1lMDxMQkA/NBgaFcCQz6q+NNFNfMahohIMLQoKhmcCAXBV8cb0R6B/Z79YpLwluMENIUHz7TSD8prTiYei46GC06TRs4WGEP5WU1xiH7gKKAvzHSYk2GrVyzh0N7g7LBV+Qf2R1GIg9qZ+9Bf9nvGNadzHfXSSgjo2q0v8U9DxeUmUxBQufvtG4yjIiBayWvd1kqZGcRpkX/u+sYIZGIbn9aHDF/RjZyRXwLWqCuoeIijzY3Hq6EAxormi/8Knt6MZ+G/G28pyNoXvkej5XhLOQASYh/zoHHG+EKPNM7Fo34+JslXdcIhLJezJzo/4uCKZ9Mi3/UMA3FBtzsmxgEvdNxyNqr5HqJ90nsuxpOTlniREhS0JfhOrfWHmJqnVoSmZ00gfbIdxTLnj74kkbvzfqqyUlzw8GalmN5rodkpuhXFQ4Om/U6QMGaG5LAsyqQWeKVn/WBzaTPJblRtmtMeoNIGySYJWemy7CzUQ5Yij+sw2Zh0Y2WiARYeyLVoZ6VwkVidmV/4ZmF3aqF58ojRzHfFMONX1r23P8HbvXly/PTc7px4ieREHj0Wg/3SZc8EzD6jTywTXaEkFWroJE3ME/Ya5zvC5h7vOrvZCnyvqai/BU+PdW257bxupaQHtVMcrxRsuX1DjGvjesP3gKZnkeMLyO2etbFLmEyJdTHeRlK2a/kzupjUBKItWP8iZ9mmbKYX8vwtiK1q0ULVfq4+Lyr6+Rh/z0grPS4PJhEeKxM+0z8moSooScw9pGQsiVf9cXjmnSFLkbYM3WfPY5XXoa1Rl4VeCQOmlTyKveRQ1L3a8p5hmmzu4WOA74vhebqiIJbdQSqd+tl5PS1imfqlCt7OFDJ7sWDz7aEqTAVPJOjHUHDI1dGszt/OX4oTI4sfehDbOWx+xzleqm249SEiyzUYc2QiIc+zioFobNVjPiAv5Tq3KEOiWAz/JxbJAxuhXxXVQ0xKHOM1eGNdNVjDqFnWubbPXkcewIAnY5SsrcXrJ0d7D/JqIWR98NTuIGzOGgtpTYxKJiHQMLWNTPqzZRd5KdK6GfJPIHdxKsOuK3QkvRPdQEv29LZbnKsUN3JO84qYpANagziAduXbvpRTjqYitXjz33qlIiwnxKWIFJHg4k0QWDpBTK5sjFxx5XXTBfXipW4I8d+VYEVHWnr7c81yxMLD7YYT6488u4LcYf5dWp4NFe03R83jzvVH4nKgGBL30Oi7ue95Fyj8tjGw0Mw+6mT9vsnptWv3+J7ngTilvbzgPHAkENJmTb4815fCboFuZOOLOfTQGNtsrKEE2SAHXPEwkpeG1vE6PsgSceFRP/8tE1J+g3OrBydc5DYIzN0wg95HDzAAgTMsYy8s8H4jp8cTrdGCKZCVJha6StmgX6JDumv0HY/lIWebvRSqwK2iMfulwVD07ngglJKKAjXxEJIIeXUMShoqgOXGVZcfwmEKE3NvWxUazAG0P+UyQkIOKCyBAs5nGBbub1xWWD8ibdTTMXel2xdt3GK4YXywFo/2azgFCCD6v6SFu/tV52eiWSXVeL7GzbFLgmYVw7NyCUOu4wOAI2YUR/5V1JneuK3O/Re6JiXnrF8g4Ke60pkIfaBNJW8rxMc0ucDEAVrxGIWFtWyQgyz6iPlnuhc2L66QpVEFbLSKFcPdukAKBeJ4VKdFo0g/mV6c4rAO72Icfa5Ijd//TufNzcsSnmLsSMMF5+FW6W2ephgz6hTJiwfrUFyfXXJ3gFk5krILFLAmGoys5hmlIBbgP1lY9T8cvLQlk4Q0V8qL0F72i9tRW4m/0WxyFf3ipSh4kJYOOJXUWpOzqAuxR0FcnY+j+5/gd+urr3fMTUle2r4M9gnAdaO+KzDr5rSMbflBCIes4S05LyNPlue6H3gNiyHcs0hmLuRAasZibFsEQT/km35+RvUUXJFFYUyzDNDzRU/0P1NP3Qgfd7B5Y5seDiUmmkhFYtsFqSoZAIdQwRPn3Do3YX54zTH70UzYUe23P9sR6wGZGYDvN8PQ2J2m+rPE+8T4RrCOkwBDEaKysCMyqDM99WFIg7BoiC20E3Ff3Ic753wfvAoEoqZBbv3uvenL50WFx85wEyFT1WUXUodAy5DsFKxOL+tUj7ydJmkruUEtMV8uuG+NqfKaGqU/VIrBI4JsT0jqt2Q5+igpg1Gt+vzQKyMv8bpQKwsgKx3Y/8OQmAvJGc9V+rLgWeYCMxHW0FAcxKxCmHM1AkGIZYaDx8OZUMGPuc9TSoPO+1o4LzBBWWC7PVPIDcFtIoZRtn3eZEY/r9kUrNTkBq7eEMApVahXlzThaLEtcUTrRa0QhN0gMF4Eihb8wWgUR8NxINsQXqbiWdW/jciyK+crhiwvFyi/xsyegiUxyyvWHQZwQZP1YQjnu2S24O/OPSAU4kzHUOKqhKiOUR6EIDN/4Sz3uzWsuHt/kO/83tazWx82Cnq6bXNjuTIGXOtHIi4C768Wu17FjaIQ41OnzcdY4FNwooup4sLrQS4n/dMpqQPBGNk5wRGTjyfpwt1gn7lBVe0wLfwQf0VD97B+1jAIvYNDqtkqXQxhjJWfiDa4oxAhjMt/NL8eoTvH8K0lkhWXsd+pm0l9rJurvPVfh9Z6lWVqs6S8QNd6fHAv74cnxuLsgXmGOYIFEoWKmzt1NLsbsENeyF1F8qvdnd9G6ww5KfQ68Bp6CkNEv39b+bXB7hz9enNmg0vljEVqwDFEvkECawWDrndDf1veV1v6/1DrbdrXlWYoPrkdOQyhX0q9itPToIBJ3815mdsbWcl5Npo9UeB0InfgnYo943vojti0NoWU7YlweJoDB/KA+XfuAPlM6jB7dHFu23gvOueLeAgjVjsg3oYbDcEbu+kWIYL83Orv0qJB0x/RcO7VRnApkE8M6ul15EqDP7i4hdY+aCYou88vBDeC11+GJ8wpYNrwpJvlfnrfiPyMaDFdYrx1RhYuOX8nOi8C8FIO4quNbK3OnMBKjVJCrExM1aBeV+rnOO1qITSRhrV8NbeHGe9PQA8U9ls4pKcTdY1xU5fJft8rn6ik9vu8CEokORY63lgxSHaN8pUJVkN1/5iPZiJztrMO9Z5Bdi+vPTJqp1rJBU8o4SZEFHet7xgIovd4qNG6dYdp1/l9A+rhK15InZekBzNXiTfCqJV5UYZYHVvl8f2vPxKBQNsUsuc3zWMKK7rM+knwSvHk4QJrLpf4nrRVkOTaRr9p1xIOnab/X81kcIfJBrhAF5p6Bh19Ha+//fb6+ieRKPehfuoYMZ3stzoqZpJGBcWiIgc0zo2ktoyJTDXd0G4lLrD+a9C1YtR9osJIPbFY95qLF7vb4n+xq9vOr/fwyVu4MeayPsxUJI5xcaj08QRoj6GsCkcLNOOCbnwVj8X+NK+NcGGGlFUis+2t7ElNaGOGHYuEwtUWops/PC2QHYgs7hHL5wPG61rdw7pT5JcFa2gOdrqjFV4tN4QKrDydIbZCtV0G62HOMy5ijmenD/i4c8DkJq5xWA8nutt8k09dysZGW3uYACI0pJGPAR/p48STtykfEadQ3mOK+YPP8wLrg+Agm1rOyJBI9yLifk4V5xIPH3EMNtYzaYYEhXZu/ebMTpPy1dUDseQy9sOGuDhje8F4S734wzKpnC2vPHn1arpjgztEWfXmWyJ/mjG7tWTWz6CRd2BfPAM1VmZVQWQ3KrW8a5cQ0WjorVFDSF+5YhRdhpW/BksSMTSJVRSJ0AHsUBEaftD17S739rgenwyLPnF42Qw+NlpVY1+TjQ2UvPA+qBtNuFJnBO6YC44LqwDBwrt/9II0Y0cOIc6auzb0D35WfCS7ckPihCzdWE2N0PFzTYo0T1FQ2WkFebmZOlB4CwN6HJU72s84hxkmxdOnboUWpXW07ydlf4+gBbs9bn76KUqQV7DIBk1pxXZwtt2m+TSZRBGeU1L+xy4qjQP7G7ca/em8EpqkCwDCiEoVfMfAFy1LPj1Ivttym7w55T4MFaN7gpQnmHOQil7IwQRwcLADmNAyGlIdOEWzFdiMl4RmdavAP6nXYofcRWdNmV3iUj1E66MqdJz/sf1FRzliD+72la1H5n5Ub6GmLEzN8NoT6ezh4AoV4QuG3OsfQIyGLGN4TExatBfsOXS+E0dxGD61mvIzu2+JajcFzBwbiPBnVOP+XUkz9XCDwmGpf55tsoKpEUzYzPufk/TN34EJpRKj+vGRYb/hhLz94GYsLfOPc33/56MzPSrek51LFGoGowe+r+XZz0q824e1U0jYksK3s7dvvick6IbVhfOPfGmOWnbYUwL5j1XDDFxPYmgLsroHwgoaFF12+hy8scERBKtzcANTPKBuJ2aH9QSJAQzguLf0C2QKVL0/pzUp85UIaZdqBY0/N7Ct1EPzWOShSpRUx2xrN4L21r2fI92UlA9lpsQz7DPyd/038f+4mo+v3Kex58TrG1O+sJ/4iLI+eObKrPsJ2ZCmNWReqWtLj1GC+pDlG69HEWF22FMo37YVR3Y6S+/PGeaNoSEqDFPjRVcFXj8XpzobdAO4V6/Gwq61EFYu8udcBw7MzezhoGbufrkiQyxDHnrD0IGkl959PC4TIMCXXx1PwKfjKfOZujXjYHpgyydadnnOJD+VtGEVQrM85Z319dyD08kISj1HO7qAjzAe446Kq1b9tv7IvpfdEXKdHqLaC93MEjHfX857bAo2jYlGOQhPCeg1aWl4Kp41VuhV4rqNPuRTO5PA5JiQVc73Pxoy71Y97i+9BIj8ZjhMrkcTUjXs7MKiLCony4WpjS3mqpzqoGeh63D4Jqtj4lhk3tQjq7ru6CIIayZJB+UFxzVjBbS00l7vCig/E/K39ptAjO7mm6KRj0WgV89Sc0NMBUUB/Ad6a86UTaLh62ZjuYH969hXMAHbvHMMJF41SrYQiPSpFHbuohdVCQPpf96xQqby7y06OM/7CP6Ix424D26rwMJFhFYKJKwcBHbRxdfz/iIkeSR5jaj6OdXyMdmZkfTzO60xvFyog60iXF9+GckS8HCr9UlBoZyxRdItEM3FfcJ/Yi61KS5lTj3J7y5mceNEx5r5XZzIi9XsWjGFBeFRh97lG22SRawpeW5oZDYRhFkQrC3jyDKxrhuHe8yC8cJEw1TOAdEb0PtxAesicdNTZrJW2L2RWz30wS1zcqFKkwX7LpRtlNP0Ak9ZnervlPKB4ec17Ea7t7a+MCVcxDtpj9HwB4O8azJgkiHbsa1Ha6joQT7DieQtKESQIcU0Ro42iIUttRo/hT1XWM+lu0lLbCjWesetwBm1lKxQrNE9gem0ykXaD5xaqwZp7Ufl+NSRBYRF/vRAMXEtu6wVBYqG1AVdmzq99gD8R1c+hiYHnjB3I87+F5/nP3CVs7ZNbsk4Dox8akVMzrTCKg5iLc00gVpAX3IUmJzfu3SyGjtNV0b+be9P2LkjTV3QZrpi0bZBDP9RRFtjptLFdZQlztTjyEZbXAu7W+pifE+7G50LbdRvO1C8pTxz+N9Bnubk0wKnohGooJY3Lef9UM3Da8R+J0X3/Zs69dwd/inXuEfzzGNkaRFyUzn0m/0oulWyv7On9RZ8gUtImAPQDUsIkEePlTqVVwyRYshdNZOGZT/7VXAlsBgXxUaw3U/75pZTtzL+GYw7THeXAlXerkPN/XOQ/NU+6Z9sv3I4HJQwqwhFCH4nBsyk8n9ZYg0Nw8Kx7XXk4pbbrd1XZvSZf9a6F60Y4048gfc2xZ0T113l4u7Pq6j5d/XsoU7VS1LmpERF631nFAwUOBIulu0rFMXitJEAwRC4iulDax3JIqsTJSBHRnH4zog8x56XpFjyngKwPB9Jo2dBQ1yzlaBuWr8uaRb4C3rmvmpcD0d4BmA1jGeSJBAGax0PnQT03tuBijdT8cq5tKh7iB6Gg1nwd2+wkHTgGpewkidMOHw0cl61CH4pJkoI4ByFEkbAwAb92014f7gujExo4YWj+aXXaq9+OwwJRJw9SaJ9UUNsTwF7cV3t6pucsm4Pn/bKtNutbJrMuvF+5zIJcGXGRsTPb6CLgmB/+ZN4NFn7i3AbzPEQtMwICgtvPbmTr9vEZrLfGxB5PCMm1RaYqbPeoO7ITqlgOsYfFQzzYtpg/1sj7qThoXWMMc1505k5aLhgOApgy3Xi2r5w2EXINMmhxlSatPopMaNgz/DwQaWD2KncwZd9uX5hk5AcwatSA86GDwWc87pBIW/xBNkQacm6ni9KVq1Ji2YTFOWgwcnd8+fwbfBPYUBu46WHUZ6fZZCtYgghNHeWJtXW2CNw2tDgeoSvlkMy+aOl3RRrsCpxk0KNaegu4MavHrva7mJGwxul+s1GLotV3IRNV9lwTmMDJJmyi6tbg2ofUdRbxDvPn4eVM9UhwmOsvq25HKzCJT+GiPlVH89FnwGp9EDGzOSJxU2mQz4uwd3BSDkf/NTdUzUTRy+AFTl7K8gwMIf1H34sNTd8YUCMNfDCtRQxWyFV32+6rIQThtM6awkUf+FhIViptlWjQHbCmTySyhA46/GhpyInLYgt9EQNi4NxN0fFsOU7YTLJM64tdi1KYUKpCB29+sOIMYfaucrhI1E/iymS6NXw0n0U7ygypLO63nxcV+Re3OcBZyc5bSzsTpJ0WMXKjbeKy2Z27oF/gBNEh0zgFnW5FcwlG9E8o7kRpkPxNVrpFp45P2Last4kUCe2W969mQIq77BKwBh48WjY9wVC804yd0Fi9Bc6xJg5+rwbcmpHVGMCRIJ9zXVTdskEQIbdgyi2YHwxAgruNNqq62GKDIXwACsk5X3LEJIE/8JUBO2BkwVWR9NTgAAAAAAAAAAAAAAAAAAAAAA==);">
+                                        </div>
+                                        <h5 class="home-product-item__name">Laptop ASUS VivoBook X413JA</h5>
+                                        <div class="home-product-item__price">
+                                            <span class="home-product-item__price-old">15.000.000đ</span>
+                                            <span class="home-product-item__price-current">11.790.000đ</span>
+                                        </div>
+                                        <div class="home-product-item__action">
+                                            <span class="home-product-item__like home-product-item__liked">
+                                                <i class="home-product-item__like-icon-liked fas fa-heart"></i>
+                                                <i class="home-product-item__like-icon far fa-heart"></i>
+                                            </span>
+                                            <div class="home-product-item__rating">
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class=" fas fa-star"></i>
+                                            </div>
+                                            <span class="home-product-item__sold">20 đã bán</span>
+                                        </div>
+                                        <div class="home-product-item__origin">
+                                            <span class="home-product-item__brand">CellphoneS</span>
+                                            <span class="home-product-item__origin-name">Việt Nam</span>
+                                        </div>
+                                        <div class="home-product-item__favourite">
+                                            <i class="home-product-item__favourite-icon fas fa-check"></i>
+                                            <span>Yêu thích</span>
+                                        </div>
+                                        <div class="home-product-item__sale">
+                                            <span class="home-product-item__sale-percent">39%</span>
+                                            <span class="home-product-item__sale-label">GIẢM</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col l-2-4 m-4 c-6">
+                                    <a href="index.html" class="home-product-item">
+                                        <div class="home-product-item__img"
+                                            style="background-image: url(https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcTL_paHjnWLv2fpBKA4RHTi5yupuFNOOLzzocdnYsFWCWiKfgAbQ5rSAk3pb95CK-l7y9pl0U8luHsTH4xD3y_nlNWbTkJ8kNBFoj0Zv8Gme8vxZZ-71vbRcw&usqp=CAE);">
+                                        </div>
+                                        <h5 class="home-product-item__name">Máy Tính Xách Tay/ Laptop Asus Vivobook X415Ma-Bv087T</h5>
+                                        <div class="home-product-item__price">
+                                            <span class="home-product-item__price-old">10.900.000đ</span>
+                                            <span class="home-product-item__price-current">7.890.000đ</span>
+                                        </div>
+                                        <div class="home-product-item__action">
+                                            <span class="home-product-item__like home-product-item__liked">
+                                                <i class="home-product-item__like-icon-liked fas fa-heart"></i>
+                                                <i class="home-product-item__like-icon far fa-heart"></i>
+                                            </span>
+                                            <div class="home-product-item__rating">
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class=" fas fa-star"></i>
+                                                <i class=" fas fa-star"></i>
+                                            </div>
+                                            <span class="home-product-item__sold">13 đã bán</span>
+                                        </div>
+                                        <div class="home-product-item__origin">
+                                            <span class="home-product-item__brand">Thế Giới Di Động</span>
+                                            <span class="home-product-item__origin-name">Việt Nam</span>
+                                        </div>
+                                        <div class="home-product-item__favourite">
+                                            <i class="home-product-item__favourite-icon fas fa-check"></i>
+                                            <span>Yêu thích</span>
+                                        </div>
+                                        <div class="home-product-item__sale">
+                                            <span class="home-product-item__sale-percent">29%</span>
+                                            <span class="home-product-item__sale-label">GIẢM</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col l-2-4 m-4 c-6">
+                                    <a href="index.html" class="home-product-item">
+                                        <div class="home-product-item__img"
+                                            style="background-image: url(https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcS7uNdVh8IOuqI2XFVtUUL7_JeVAqybGFjngCHN9yxD5W9rDSuMiO5I_LO51rKQy_bJlNd2wvR8hbDr9wJxKsGj2_9-tbhTBwPcrA8wKK8e6v_l4llN1-ftYw&usqp=CAE);">
+                                        </div>
+                                        <h5 class="home-product-item__name">Laptop ASUS Vivobook R564JA-UH51T</h5>
+                                        <div class="home-product-item__price">
+                                            <span class="home-product-item__price-old">20.000.000đ</span>
+                                            <span class="home-product-item__price-current">17.790.000đ</span>
+                                        </div>
+                                        <div class="home-product-item__action">
+                                            <span class="home-product-item__like home-product-item__liked">
+                                                <i class="home-product-item__like-icon-liked fas fa-heart"></i>
+                                                <i class="home-product-item__like-icon far fa-heart"></i>
+                                            </span>
+                                            <div class="home-product-item__rating">
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                            </div>
+                                            <span class="home-product-item__sold">15 đã bán</span>
+                                        </div>
+                                        <div class="home-product-item__origin">
+                                            <span class="home-product-item__brand">CellphoneS</span>
+                                            <span class="home-product-item__origin-name">Việt Nam</span>
+                                        </div>
+                                        <div class="home-product-item__favourite">
+                                            <i class="home-product-item__favourite-icon fas fa-check"></i>
+                                            <span>Yêu thích</span>
+                                        </div>
+                                        <div class="home-product-item__sale">
+                                            <span class="home-product-item__sale-percent">35%</span>
+                                            <span class="home-product-item__sale-label">GIẢM</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col l-2-4 m-4 c-6">
+                                    <a href="index.html" class="home-product-item">
+                                        <div class="home-product-item__img"
+                                            style="background-image: url(https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcTBehk7lKxt6P30S8E9jW_CzjS1GaAbxXqmh_FjIFkcrutWyAOGSFis98jQmYUyLlOdsk_wpL4NzCMXzkr4h8UqouckLwri&usqp=CAE);">
+                                        </div>
+                                        <h5 class="home-product-item__name">Laptop dell xps 9343 i7 5500u giá rẻ</h5>
+                                        <div class="home-product-item__price">
+                                            <span class="home-product-item__price-old">18.990.000đ</span>
+                                            <span class="home-product-item__price-current">15.800.000đ</span>
+                                        </div>
+                                        <div class="home-product-item__action">
+                                            <span class="home-product-item__like home-product-item__liked">
+                                                <i class="home-product-item__like-icon-liked fas fa-heart"></i>
+                                                <i class="home-product-item__like-icon far fa-heart"></i>
+                                            </span>
+                                            <div class="home-product-item__rating">
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                            </div>
+                                            <span class="home-product-item__sold">21 đã bán</span>
+                                        </div>
+                                        <div class="home-product-item__origin">
+                                            <span class="home-product-item__brand">Ngoc Nguyen</span>
+                                            <span class="home-product-item__origin-name">Việt Nam</span>
+                                        </div>
+                                        <div class="home-product-item__favourite">
+                                            <i class="home-product-item__favourite-icon fas fa-check"></i>
+                                            <span>Yêu thích</span>
+                                        </div>
+                                        <div class="home-product-item__sale">
+                                            <span class="home-product-item__sale-percent">20%</span>
+                                            <span class="home-product-item__sale-label">GIẢM</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col l-2-4 m-4 c-6">
+                                    <a href="index.html" class="home-product-item">
+                                        <div class="home-product-item__img"
+                                            style="background-image: url(https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcR11KgKVvVUzlCRJmbvTJIzu8VKLpfmN2aLuLedgN90F4pu7D7HB6wS37UDBPYL3sHjpvwUB68dKYAVi07xSGPSvlrlvIrT&usqp=CAE);">
+                                        </div>
+                                        <h5 class="home-product-item__name">Laptop HP Pavilion 15 eg0539TU i5 1135G7/8GB/512GB/15.6</h5>
+                                        <div class="home-product-item__price">
+                                            <span class="home-product-item__price-old">20.990.000đ</span>
+                                            <span class="home-product-item__price-current">17.099.000đ</span>
+                                        </div>
+                                        <div class="home-product-item__action">
+                                            <span class="home-product-item__like home-product-item__liked">
+                                                <i class="home-product-item__like-icon-liked fas fa-heart"></i>
+                                                <i class="home-product-item__like-icon far fa-heart"></i>
+                                            </span>
+                                            <div class="home-product-item__rating">
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                            </div>
+                                            <span class="home-product-item__sold">14 đã bán</span>
+                                        </div>
+                                        <div class="home-product-item__origin">
+                                            <span class="home-product-item__brand">FPTShop</span>
+                                            <span class="home-product-item__origin-name">Việt Nam</span>
+                                        </div>
+                                        <div class="home-product-item__favourite">
+                                            <i class="home-product-item__favourite-icon fas fa-check"></i>
+                                            <span>Yêu thích</span>
+                                        </div>
+                                        <div class="home-product-item__sale">
+                                            <span class="home-product-item__sale-percent">18%</span>
+                                            <span class="home-product-item__sale-label">GIẢM</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col l-2-4 m-4 c-6">
+                                    <a href="index.html" class="home-product-item">
+                                        <div class="home-product-item__img"
+                                            style="background-image: url(https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcSRkvEizkEZUHJxZskGSMkiffqkc3cv-JIYSX8jKbPTYHoJAKF0tgl2VpwPUunrCdAgQ-VJq7suPHa-5rvrgQRw3aOHUQMEAVyc4dkN3PpSNb0BkbOT-z1W&usqp=CAE);">
+                                        </div>
+                                        <h5 class="home-product-item__name">Laptop ASUS VivoBook 14 A515EA-BQ498T</h5>
+                                        <div class="home-product-item__price">
+                                            <span class="home-product-item__price-old">23.990.000đ</span>
+                                            <span class="home-product-item__price-current">18.290.000đ</span>
+                                        </div>
+                                        <div class="home-product-item__action">
+                                            <span class="home-product-item__like home-product-item__liked">
+                                                <i class="home-product-item__like-icon-liked fas fa-heart"></i>
+                                                <i class="home-product-item__like-icon far fa-heart"></i>
+                                            </span>
+                                            <div class="home-product-item__rating">
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class=" fas fa-star"></i>
+                                            </div>
+                                            <span class="home-product-item__sold">20 đã bán</span>
+                                        </div>
+                                        <div class="home-product-item__origin">
+                                            <span class="home-product-item__brand">CellphoneS</span>
+                                            <span class="home-product-item__origin-name">Việt Nam</span>
+                                        </div>
+                                        <div class="home-product-item__favourite">
+                                            <i class="home-product-item__favourite-icon fas fa-check"></i>
+                                            <span>Yêu thích</span>
+                                        </div>
+                                        <div class="home-product-item__sale">
+                                            <span class="home-product-item__sale-percent">32%</span>
+                                            <span class="home-product-item__sale-label">GIẢM</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col l-2-4 m-4 c-6">
+                                    <a href="index.html" class="home-product-item">
+                                        <div class="home-product-item__img"
+                                            style="background-image: url(https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcQuxW0MOk8MaqOTeFjYZV3QpUmWj02crHtPOkWQpLJ-ft77sCVqNRN7OFZOgkJOuDCSHIm3_tcnvi6Cxsu5ZxbvKlz3LU1rtVIVPygAXQg&usqp=CAE);">
+                                        </div>
+                                        <h5 class="home-product-item__name">Laptop Hp Pavilion 15-Cs0016Tu - Laptop Cơ Bản Hp</h5>
+                                        <div class="home-product-item__price">
+                                            <span class="home-product-item__price-old">15.000.000đ</span>
+                                            <span class="home-product-item__price-current">12.990.000đ</span>
+                                        </div>
+                                        <div class="home-product-item__action">
+                                            <span class="home-product-item__like home-product-item__liked">
+                                                <i class="home-product-item__like-icon-liked fas fa-heart"></i>
+                                                <i class="home-product-item__like-icon far fa-heart"></i>
+                                            </span>
+                                            <div class="home-product-item__rating">
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class=" fas fa-star"></i>
+                                                <i class=" fas fa-star"></i>
+                                            </div>
+                                            <span class="home-product-item__sold">11 đã bán</span>
+                                        </div>
+                                        <div class="home-product-item__origin">
+                                            <span class="home-product-item__brand">NhaBanHang</span>
+                                            <span class="home-product-item__origin-name">Việt Nam</span>
+                                        </div>
+                                        <div class="home-product-item__favourite">
+                                            <i class="home-product-item__favourite-icon fas fa-check"></i>
+                                            <span>Yêu thích</span>
+                                        </div>
+                                        <div class="home-product-item__sale">
+                                            <span class="home-product-item__sale-percent">13%</span>
+                                            <span class="home-product-item__sale-label">GIẢM</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col l-2-4 m-4 c-6">
+                                    <a href="index.html" class="home-product-item">
+                                        <div class="home-product-item__img"
+                                            style="background-image: url(https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcQTuMzZq6Z2UXzAYdwlgMCK_Ny392cNoaKScbSVLM7DuWz5ME6ryHra14Hy_WU9OVBc-1wPXsM0qiQPcHXWJVY3ApeXjoBpvDtMZ9QZAGYHrl6_nGgAdhR9LQ&usqp=CAE);">
+                                        </div>
+                                        <h5 class="home-product-item__name">Laptop ASUS VivoBook R564JA-UH31T Nhập Khẩu Chính Hãng</h5>
+                                        <div class="home-product-item__price">
+                                            <span class="home-product-item__price-old">16.490.000đ</span>
+                                            <span class="home-product-item__price-current">12.990.000đ</span>
+                                        </div>
+                                        <div class="home-product-item__action">
+                                            <span class="home-product-item__like home-product-item__liked">
+                                                <i class="home-product-item__like-icon-liked fas fa-heart"></i>
+                                                <i class="home-product-item__like-icon far fa-heart"></i>
+                                            </span>
+                                            <div class="home-product-item__rating">
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class=" fas fa-star"></i>
+                                            </div>
+                                            <span class="home-product-item__sold">23 đã bán</span>
+                                        </div>
+                                        <div class="home-product-item__origin">
+                                            <span class="home-product-item__brand">CellphoneS</span>
+                                            <span class="home-product-item__origin-name">Việt Nam</span>
+                                        </div>
+                                        <div class="home-product-item__favourite">
+                                            <i class="home-product-item__favourite-icon fas fa-check"></i>
+                                            <span>Yêu thích</span>
+                                        </div>
+                                        <div class="home-product-item__sale">
+                                            <span class="home-product-item__sale-percent">24%</span>
+                                            <span class="home-product-item__sale-label">GIẢM</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col l-2-4 m-4 c-6">
+                                    <a href="index.html" class="home-product-item">
+                                        <div class="home-product-item__img"
+                                            style="background-image: url(https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcSjHvte5NVcVQ4FN45Li0aswzrfcMR5J65bRiAHPTDWF2Zu30caTMKbSVD1KAwDfosRGL6qRPnuDleals-ahjyF1xh9LQlJEai_4bH-VhhT&usqp=CAE);">
+                                        </div>
+                                        <h5 class="home-product-item__name">Laptop lenovo ideapad 314itl6 i5-1135g7 14 inch 82h700dqvn</h5>
+                                        <div class="home-product-item__price">
+                                            <span class="home-product-item__price-old">19.000.000đ</span>
+                                            <span class="home-product-item__price-current">15.790.000đ</span>
+                                        </div>
+                                        <div class="home-product-item__action">
+                                            <span class="home-product-item__like home-product-item__liked">
+                                                <i class="home-product-item__like-icon-liked fas fa-heart"></i>
+                                                <i class="home-product-item__like-icon far fa-heart"></i>
+                                            </span>
+                                            <div class="home-product-item__rating">
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                            </div>
+                                            <span class="home-product-item__sold">17 đã bán</span>
+                                        </div>
+                                        <div class="home-product-item__origin">
+                                            <span class="home-product-item__brand">Nguyễn Kim</span>
+                                            <span class="home-product-item__origin-name">Việt Nam</span>
+                                        </div>
+                                        <div class="home-product-item__favourite">
+                                            <i class="home-product-item__favourite-icon fas fa-check"></i>
+                                            <span>Yêu thích</span>
+                                        </div>
+                                        <div class="home-product-item__sale">
+                                            <span class="home-product-item__sale-percent">23%</span>
+                                            <span class="home-product-item__sale-label">GIẢM</span>
+                                        </div>
+                                    </a>
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <div class="divpagination">
+                            <ul class="pagination">
+                                <li class="pagination-item">
+                                    <a href="#" class="pagination-item__link">
+                                        <i class="pagination-item__icon fas fa-angle-left"></i>
+                                    </a>
+                                </li>
+                                <li class="pagination-item pagination-item--active">
+                                    <a href="#" class="pagination-item__link">1</a>
+                                </li>
+                                <li class="pagination-item">
+                                    <a href="#" class="pagination-item__link">2</a>
+                                </li>
+                                <li class="pagination-item">
+                                    <a href="#" class="pagination-item__link">3</a>
+                                </li>
+                                <li class="pagination-item">
+                                    <a href="#" class="pagination-item__link">4</a>
+                                </li>
+                                <li class="pagination-item">
+                                    <a href="#" class="pagination-item__link">...</a>
+                                </li>
+                                <li class="pagination-item">
+                                    <a href="#" class="pagination-item__link">14</a>
+                                </li>
+                                <li class="pagination-item">
+                                    <a href="#" class="pagination-item__link">
+                                        <i class="pagination-item__icon fas fa-angle-right"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <footer class="footer">
+            <div class="grid wide">
+                <div class="row">
+                    <div class="col l-2-4 m-4 c-6">
+                        <h3 class="footer__heading">Chăm sóc khách hàng</h3>
+                        <ul class="footer-list">
+                            <li class="footer-item">
+                                <a href="" class="footer-item__link">Trung Tâm Trợ Giúp</a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="" class="footer-item__link">F8-Shop Mall</a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="" class="footer-item__link">Hướng Dẫn Mua Hàng</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col l-2-4 m-4 c-6">
+                        <h3 class="footer__heading">Giới thiệu</h3>
+                        <ul class="footer-list">
+                            <li class="footer-item">
+                                <a href="" class="footer-item__link">Giới Thiệu</a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="" class="footer-item__link">Tuyển Dụng</a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="" class="footer-item__link">Điều Khoản</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col l-2-4 m-4 c-6">
+                        <h3 class="footer__heading">Danh mục</h3>
+                        <ul class="footer-list">
+                            <li class="footer-item">
+                                <a href="" class="footer-item__link">Laptop Rẽ</a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="" class="footer-item__link">Laptop Mới</a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="" class="footer-item__link">Laptop Giảm Giá</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col l-2-4 m-4 c-6">
+                        <h3 class="footer__heading">Theo dõi</h3>
+                        <ul class="footer-list">
+                            <li class="footer-item">
+                                <a href="" class="footer-item__link">
+                                    <i class="footer-item__icon fab fa-facebook"></i>
+                                    Facebook
+                                </a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="" class="footer-item__link">
+                                    <i class="footer-item__icon fab fa-instagram"></i>
+                                    Instagram
+                                </a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="" class="footer-item__link">
+                                    <i class="footer-item__icon fab fa-linkedin"></i>
+                                    LinkedIn
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col l-2-4 m-8 c-12">
+                        <h3 class="footer__heading">Vào cửa hàng trên ứng dụng</h3>
+                        <div class="footer__download">
+                            <img src="../asset/image/macode.png" alt="Download QR" class="footer__download-qr">
+                            <div class="footer__download-apps">
+                                <a href="" class="footer__download-app-link">
+                                    <img src="../asset/image/google.png" alt="GooglePlay"
+                                        class="footer__download-apps-img">
+                                </a>
+                                <a href="" class="footer__download-app-link">
+                                    <img src="../asset/image/appstore.png" alt="App Store"
+                                        class="footer__download-apps-img">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="text">
+                <p class="">2021 - Bản quyền thuộc về công ty </p>
+            </div>
+        </footer>
+    </div>
+
+    <!-- modal -->
+    <!-- <div class="modal">
+        <div class="modal__overlay"></div>
+        <div class="modal__body"> -->
+    <!-- Register Form -->
+    <!-- <div class="auth-form">
+                <div class="auth-form__container">
+                    <div class="auth-form__header">
+                        <h3 class="auth-form__heading">Đăng ký</h3>
+                        <span class="auth-form__switch-btn">Đăng nhập</span>
+                    </div>
+
+                    <div class="auth-form__form">
+                        <div class="auth-form__group">
+                            <input type="text" class="auth-form__input" placeholder="Nhập Email">
+                        </div>
+                        <div class="auth-form__group">
+                            <input type="pass" class="auth-form__input" placeholder="Nhập Password">
+                        </div>
+                        <div class="auth-form__group">
+                            <input type="pass" class="auth-form__input" placeholder="Nhập lại Password">
+                        </div>
+                    </div>
+
+                    <div class="auth-form__aside">
+                        <p class="auth-form__policy-text">
+                            Bằng việc đăng kí, bạn đồng ý với F8-Shop về
+                            <a href="" class="auth-form__text-link">Điều khoản dịch vụ</a>
+                            & <a href="" class="auth-form__text-link">Chính sách bảo mật</a>
+                        </p>
+                    </div>
+
+                    <div class="auth-form__controls">
+                        <button class="btn btn-normal" type="button">TRỞ LẠI</button>
+                        <button class="btn btn--primary" type="button">ĐĂNG KÝ</button>
+                    </div>
+                </div>
+
+                <div class="auth-form__socials">
+                    <a href="" class="auth-form__socials--fb btn btn--with-icon">
+                        <i class="auth-form__socials-icon fab fa-facebook-square"></i>
+                        <span class="auth-form__socials-title">Kết nối với facebook</span>
+                    </a>
+                    <a href="" class="auth-form__socials--gg btn btn--with-icon">
+                        <i class="auth-form__socials-icon fab fa-google"></i>
+                        <span class="auth-form__socials-title">Kết nối với Google</span>
+                    </a>
+                </div>
+            </div> -->
+
+    <!-- Login Form -->
+    <!-- <div class="auth-form">
+                <div class="auth-form__container">
+                    <div class="auth-form__header">
+                        <h3 class="auth-form__heading">Đăng nhập</h3>
+                        <span class="auth-form__switch-btn">Đăng ký</span>
+                    </div>
+
+                    <div class="auth-form__form">
+                        <div class="auth-form__group">
+                            <input type="text" class="auth-form__input" placeholder="Nhập Email">
+                        </div>
+                        <div class="auth-form__group">
+                            <input type="pass" class="auth-form__input" placeholder="Nhập Password">
+                        </div>
+                    </div>
+
+                    <div class="auth-form__aside">
+                        <div class="auth-form__help">
+                            <a href="" class="auth-form__help-link auth-form__help-forgot">Quên mật khẩu</a>
+                            <span class="auth-form__help-separ"></span>
+                            <a href="" class="auth-form__help-link">Cần trợ giúp?</a>
+                        </div>
+                    </div>
+
+                    <div class="auth-form__controls">
+                        <button class="btn btn-normal" type="button">TRỞ LẠI</button>
+                        <button class="btn btn--primary" type="button">ĐĂNG NHẬP</button>
+                    </div>
+                </div>
+
+                <div class="auth-form__socials">
+                    <a href="" class="auth-form__socials--fb btn btn--with-icon">
+                        <i class="auth-form__socials-icon fab fa-facebook-square"></i>
+                        <span class="auth-form__socials-title">Kết nối với facebook</span>
+                    </a>
+                    <a href="" class="auth-form__socials--gg btn btn--with-icon">
+                        <i class="auth-form__socials-icon fab fa-google"></i>
+                        <span class="auth-form__socials-title">Kết nối với Google</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>  -->
+</body>
+
+</html>
