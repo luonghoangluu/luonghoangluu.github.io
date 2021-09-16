@@ -117,7 +117,7 @@
                                     <a href="">Tài khoản của tôi</a>
                                 </li>
                                 <li class="header__navbar-user-item">
-                                    <a href="">Đại chỉ của tôi</a>
+                                    <a href="">Địa chỉ của tôi</a>
                                 </li>
                                 <li class="header__navbar-user-item">
                                     <a href="">Đơn mua</a>
@@ -132,9 +132,52 @@
 
                 <!-- header with search -->
                 <div class="header-with-search">
-                    <label for="mobile-search" class="header__mobile-search">
-                        <i class="header__mobile-search-icon fas fa-search"></i>
-                    </label>
+                    <!-- navbar on tablet & mobile  -->
+                    <div class="nav__bars-btn">
+                        <label for="navbar__show">
+                            <i class="nav__bars-btn-icon fas fa-bars"></i>
+                        </label>
+                        <label for="mobile-search" class="header__mobile-search">
+                            <i class="header__mobile-search-icon fas fa-search"></i>
+                        </label>
+                    </div>
+
+                    <input type="checkbox" hidden class="navbar__check" name="" id="navbar__show">
+
+                    <label for="navbar__show" class="nav__overlay"></label>
+
+                    <nav class="navbar__tm">
+                        <label for="navbar__show" class="navbar__tm-close">
+                            <i class="navbar__tm-close-icon fas fa-times"></i>
+                        </label>
+                        <div class="header__tm">
+                        <img src="../asset/image/nam.jpg" alt="" class="header__tm-user-img">
+                            <span class="header__tm-user-name">Hoang Luu</span>
+                        </div>
+                        <ul class="nav__list">
+                            <li class="nav__item">
+                                <i class="nav__item-icon fas fa-user-circle"></i>
+                                <a href="" class="nav__link">Tài khoản của tôi</a>
+                            </li>
+                            <li class="nav__item">
+                                <i class="nav__item-icon fas fa-address-card"></i>
+                                <a href="" class="nav__link">Địa chỉ của tôi</a>
+                            </li>
+                            <li class="nav__item">
+                                <i class="nav__item-icon fas fa-shopping-bag"></i>
+                                <a href="" class="nav__link">Đơn mua</a>
+                            </li>
+                            <li class="nav__item">
+                                <i class="nav__item-icon fas fa-bell"></i>
+                                <a href="" class="nav__link">Thông báo</a>
+                            </li>
+                            <li class="nav__item">
+                                <i class="nav__item-icon fas fa-sign-out-alt"></i>
+                                <a href="" class="nav__link">Đăng xuất</a>
+                            </li>
+                        </ul>
+                    </nav>
+
                     <div class="header__logo hide-on-tablet">
                         <a href="index.html" class="header__logo-link">
                             <svg viewBox="0 0 192 65" class="header__logo-img">
@@ -148,7 +191,7 @@
                     </div>
 
                     <input type="checkbox" hidden name="" id="mobile-search" class="header__search-checkbox">
-
+                    
                     <div class="header__search hide-on-mobile">
                         <div class="header__search-input-wrap">
                             <input type="text" placeholder="Nhập Sản Phẩm" class="header__search-input">
@@ -188,11 +231,14 @@
                     <!-- cart -->
                     <div class="header__cart">
                         <div class="header__cart-wrap">
-                            <i class="header__cart-icon fas fa-shopping-cart"></i>
+                            <label for="tablet-cart">
+                                <i class="header__cart-icon fas fa-shopping-cart"></i>
+                            </label>
                             <span class="header__cart-notice">3</span>
+                            <input type="checkbox" hidden name="" id="tablet-cart" class="header__cart-checkbox">
 
                             <!-- No cart: header__cart-list--nocart -->
-                            <div class="header__cart-list">
+                            <div class="header__cart-list header__cart-list-on-mb-tl">
                                 <img src="../asset/image/no-cart.png" alt="" class="header__cart-nocart-img">
                                 <span class="header__cart-list-noitem">Chưa có sản phẩm</span>
 

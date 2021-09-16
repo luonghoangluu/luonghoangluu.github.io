@@ -1,3 +1,10 @@
+/* PC */
+@media (min-width: 1024px){
+    .header__cart-wrap:hover .header__cart-list{
+        display: block;
+    }
+}
+
 /* mobile & tablet */
 @media (max-width: 1023px){
     :root{
@@ -45,6 +52,15 @@
         display: block;
     }
 
+    .header__cart-checkbox:checked ~ .header__cart-list-on-mb-tl{
+        display: block;
+    }
+
+    .nav__bars-btn{
+        display: flex;
+        align-items: center;
+    }
+
 }
 
 /* tablet */
@@ -56,6 +72,10 @@
     .header__cart{
         width: 80px;
         text-align: right;
+    }
+
+    .header__search-history{
+        width: calc(100% - 16px);
     }
 }
 
